@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  background-color: lightpink;
+}
+
+h2{
+  padding-left: 10px;
+  background-color: white;
+  border: 3px solid black;
+}
+
+h1{
+  background-color:  black;
+  color: white;
+  text-align: center;
+  border: 3px solid white;
+}
+
+.Cientista{
+border: 3px solid black;
+display: block;
+margin: auto;
+
+}
+
+h4{
+  color: red;
+}
+
+.link{
+  color: black;
+}
+
+footer {
+  background-color: white;
+  text-decoration: none;
+}
+
+ul{
+   list-style-type: none;
+  margin-left: 0%;
+  text-align: left;
+  border: 3px solid black;
+  font-weight: bold;
+}
+
+p, h4, li{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
