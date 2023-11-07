@@ -1,0 +1,3 @@
+[submodule "Testando"]
+	path = Testando
+	url = https://github.com/Kartabil2908/teste.git
