@@ -1,0 +1,135 @@
+html {
+    font-family: 'Open Sans';font-size: 22px;
+}
+
+#fluxo-de-gastos-semanal {
+    color: rgba(0, 0, 0, 0.79);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+#valor {
+    color: rgba(55, 73, 87, 0.34);
+    font-size: 32px;
+    font-family: Open Sans;
+    font-weight: 600;
+    letter-spacing: 0.32px;
+    word-wrap: break-word;
+}
+
+#porcensemanal {
+    color: #346F06;
+    font-size: 11px;
+    font-family: Open Sans;
+    font-weight: 600;
+    letter-spacing: 0.11px;
+    word-wrap: break-word;
+}
+
+.barra-cinza {
+    width: 6px;
+    height: 80px; /* Defina a altura máxima da barra cinza, que será o valor máximo */
+    left: 0px;
+    top: 0px; /* Mude o valor de top para 0 */
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 5px;
+}
+
+.barra-roxa {
+    width: 6px;
+    left: 0px;
+    position: absolute;
+    background: rgba(156.76, 47, 243, 0.58);
+    border-radius: 5px;
+    bottom: 0px; /* Adicione a propriedade bottom para fixar a barra roxa na parte inferior */
+}
+
+.espacamento-barra {
+    width: 6px;
+    height: 83px;
+    position: relative;
+}
+
+#fundo-do-card {
+    width: 500px;
+    height: 174px;
+    left: 0px;
+    top: -3px;
+    position: absolute;
+    background: #FAFAFA;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+}
+
+#posicao-barras {
+    left: 333px;
+    top: 73px;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 16px;
+    display: inline-flex;
+}
+
+#posicao-esquerda {
+    width: 272px;
+    height: 130px;
+    left: 0px;
+    top: 11px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 11px;
+    display: inline-flex;
+}
+
+#fluxo-de-gastos-semanal {
+    width: 272px;
+    height: 38px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.79);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+#valor {
+    width: 190px;
+    height: 45px;
+    text-align: center;
+    color: rgba(55, 73, 87, 0.34);
+    font-size: 32px;
+    font-family: Open Sans;
+    font-weight: 600;
+    letter-spacing: 0.32px;
+    word-wrap: break-word;
+}
+
+#fundo-verde {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #DEFDC5;
+    border-radius: 12px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    display: inline-flex;
+}
+
+#porcensemanal {
+    text-align: center;
+    color: #346F06;
+    font-size: 11px;
+    font-family: Open Sans;
+    font-weight: 600;
+    letter-spacing: 0.11px;
+    word-wrap: break-word;
+}
