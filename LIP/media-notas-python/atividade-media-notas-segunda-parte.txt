@@ -1,0 +1,150 @@
+Link da Atividade:
+
+https://replit.com/join/venzzzkkhw-bernardokartabi
+
+
+
+Código da primeira parte da atividade caso o nlink não abrir:
+
+ARQUIVO MAIN.PY:
+
+from calc_media import calcularMedia
+
+limite_aprovacao = 60
+# Declarando os Alunos
+dict_aluno1 = {
+    'Nome': 'Ana',
+    'Nota1': 99,
+    'Nota2': 99,
+    'Nota3': 99,
+}
+dict_aluno2 = {
+    'Nome': 'José',
+    'Nota1': 7,
+    'Nota2': 10,
+    'Nota3': 12,
+}
+dict_aluno3 = {
+    'Nome': 'Bernardo',
+    'Nota1': 7,
+    'Nota2': 10,
+    'Nota3': 12,
+}
+
+alunos = [dict_aluno1, dict_aluno2, dict_aluno3] #adicionando "Media" no dicionário
+for aluno in alunos:
+    aluno['Media'] = calcularMedia(aluno['Nota1'], aluno['Nota2'], aluno['Nota3'])
+
+for aluno in alunos: # Adicionando a nova chave 'status' a cada dicionário
+    if aluno['Media'] >= limite_aprovacao:
+        aluno['Status'] = 'Aprovado'
+    else:
+        aluno['Status'] = 'Reprovado'
+
+for i, aluno in enumerate(alunos, 1): # Imprimindo os dicionários atualizados
+    print(f'Aluno {i}: {aluno}')
+
+
+----------------------------------------------------------------------------------
+
+ARQUIVO calc_media.py
+
+def calcularMedia(Nota1, Nota2, Nota3):
+
+  media = (Nota1 + Nota2 + Nota3) / 3
+  return round (media, 2)
+  
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------
+
+Segunda parte da Atividade:
+
+Código MAIN.PY caso o link não dê certo:
+
+# Recado para o professor: Eu tive bastante dificuldade nessa segunda parte, mas eu
+# consegui usando o chatGPT, ou seja, tem algumas coisas que eu ainda não entendo
+# espero que compreenda. 
+
+from calc_media import calcularMedia
+
+limite_aprovacao = 60
+
+dict_aluno1 = {
+    'Nome': 'Ana',
+    'Nota1': 99,
+    'Nota2': 99,
+    'Nota3': 99,
+    'Nota4': 95,
+}
+
+dict_aluno2 = {
+    'Nome': 'José',
+    'Nota1': 7,
+    'Nota2': 10,
+    'Nota3': 12,
+    'Nota4': 15,
+}
+
+dict_aluno3 = {
+    'Nome': 'Bernardo',
+    'Nota1': 7,
+    'Nota2': 10,
+    'Nota3': 12,
+    'Nota4': 8,
+}
+
+dict_aluno4 = {
+    'Nome': 'Carlos',
+    'Nota1': 8,
+    'Nota2': 9,
+    'Nota3': 7,
+    'Nota4': 10,
+}
+
+dict_aluno5 = {
+    'Nome': 'Mariana',
+    'Nota1': 10,
+    'Nota2': 8,
+    'Nota3': 7,
+    'Nota4': 9,
+}
+alunos = [dict_aluno1, dict_aluno2, dict_aluno3]
+
+for aluno in alunos: # Adicionando a nova chave 'Media' e 'Status' a cada dicionário
+    aluno['Media'] = calcularMedia(aluno)
+    aluno['Status'] = 'Aprovado' if aluno['Media'] >= limite_aprovacao else 'Reprovado'
+for i, aluno in enumerate(alunos, 1): # Imprimindo os dicionários atualizados
+    print(f'Aluno {i}: {aluno}')
+
+alunos.extend([dict_aluno4, dict_aluno5]) # Adicionando mais dois estudantes
+
+for aluno in alunos[3:]: # Recalculando a média e o status para os novos estudantes
+    aluno['Media'] = calcularMedia(aluno)
+    aluno['Status'] = 'Aprovado' if aluno['Media'] >= limite_aprovacao else 'Reprovado'
+
+print("\nEstudantes Atualizados:") # Imprimindo todos os estudantes, suas médias e status novamente
+for i, aluno in enumerate(alunos, 1):
+    print(f'Aluno {i}: {aluno}')
+
+
+
+-------------------------------------------------------------------------------------------------------------
+
+ARQUIVO CALC_MEDIA.PY:
+
+def calcularMedia(aluno):
+    notas = [valor for chave, valor in aluno.items() if chave.startswith('Nota')]
+    media = sum(notas) / len(notas)
+    return round(media, 2)
+
+
+
