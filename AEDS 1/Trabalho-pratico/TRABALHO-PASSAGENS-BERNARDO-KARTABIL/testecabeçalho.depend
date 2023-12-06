@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1701356133 source:d:\onedrive - sga.pucminas.br\primeiro-periodo\aeds 1\nova pasta\testecabeçalho\main.c
+	<stdio.h>
+	"Passagem.h"
+	"cadastrarPassagem.h"
+	"validacoes.h"
+
+1701354088 d:\onedrive - sga.pucminas.br\primeiro-periodo\aeds 1\nova pasta\testecabeçalho\passagem.h
+
+1701356344 d:\onedrive - sga.pucminas.br\primeiro-periodo\aeds 1\nova pasta\testecabeçalho\cadastrarpassagem.h
+	<stdbool.h>
+	<stdio.h>
+	"Passagem.h"
+	"validacoes.h"
+
+1701355750 d:\onedrive - sga.pucminas.br\primeiro-periodo\aeds 1\nova pasta\testecabeçalho\validacoes.h
+	<ctype.h>
+	"Passagem.h"
+	<stdlib.h>
+	<stdbool.h>
+
+1701639312 source:d:\onedrive - sga.pucminas.br\primeiro-periodo\aeds 1\nova pasta\trabalho-passagens-bernardo-kartabil\main.c
+	<stdio.h>
+	"cadastrarPassagem.h"
+	"listarPassagens.h"
+	<locale.h>
+	"pesquisarpassagem.h"
+	"excluirPassagem.h"
+	"editarPassagem.h"
+
+1701379630 d:\onedrive - sga.pucminas.br\primeiro-periodo\aeds 1\nova pasta\trabalho-passagens-bernardo-kartabil\passagem.h
+
+1701798652 d:\onedrive - sga.pucminas.br\primeiro-periodo\aeds 1\nova pasta\trabalho-passagens-bernardo-kartabil\cadastrarpassagem.h
+	<stdbool.h>
+	<stdio.h>
+	"Passagem.h"
+	"validacoes.h"
+	"criarID.h"
+
+1701540561 d:\onedrive - sga.pucminas.br\primeiro-periodo\aeds 1\nova pasta\trabalho-passagens-bernardo-kartabil\validacoes.h
+	<ctype.h>
+	"Passagem.h"
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+
+1701805297 d:\onedrive - sga.pucminas.br\primeiro-periodo\aeds 1\nova pasta\trabalho-passagens-bernardo-kartabil\listarpassagens.h
+	"Passagem.h"
+	<stdio.h>
+
+1701467154 d:\onedrive - sga.pucminas.br\primeiro-periodo\aeds 1\nova pasta\trabalho-passagens-bernardo-kartabil\criarid.h
+	<stdio.h>
+
+1701798652 d:\onedrive - sga.pucminas.br\primeiro-periodo\aeds 1\nova pasta\trabalho-passagens-bernardo-kartabil\pesquisarpassagem.h
+	<stdio.h>
+	<stdlib.h>
+	"Passagem.h"
+	<stdbool.h>
+
+1701798652 d:\onedrive - sga.pucminas.br\primeiro-periodo\aeds 1\nova pasta\trabalho-passagens-bernardo-kartabil\excluirpassagem.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1701798652 d:\onedrive - sga.pucminas.br\primeiro-periodo\aeds 1\nova pasta\trabalho-passagens-bernardo-kartabil\editarpassagem.h
+	<stdio.h>
+	<stdlib.h>
+

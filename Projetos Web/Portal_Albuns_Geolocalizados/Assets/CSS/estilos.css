@@ -1,0 +1,86 @@
+html , body { 
+    max-width: 100%;
+    max-height: 100%;
+    background-color: rgb(224, 220, 220);
+  }
+  
+  header {
+    background-color: rgb(224, 220, 220);
+  }
+  
+  .navbar-nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 85%;
+  }
+  
+  #carouselExampleCaptions {
+    padding: 50px 0;
+  }
+  
+  .carousel-item {
+    padding-right: 25%;
+    padding-left: 25%;
+    background-color: rgb(150, 150, 150);
+  }
+  
+  .navbar-brand {
+    font-size: 35px;
+  }
+  
+  .mapa {
+    margin: 0% 25%;
+    max-width: 100%;
+    display: block;
+    height: 500px; /* Defina a altura desejada para o mapa */
+  }
+  
+  .navbar {
+    border-bottom: 2px solid black;
+  }
+  
+  .destaque {
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+  }
+  
+  #dest {
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid red;
+  }
+  
+  .linha-separar {
+    height: 0px;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    border: 2px solid red;
+  }
+  
+  #img-princ > img, p, h1 {
+    display: inline-block;
+  }
+  
+  .flex {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .flex > div {
+    flex: 1 1 px;
+    margin: 10px;
+  }
+  
+  .rodape {
+    border-top: 2px solid red;
+    padding: 20px;
+  }
+  
